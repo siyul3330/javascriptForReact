@@ -117,7 +117,7 @@ let array3 = array1.concat(array2);
 console.log(array3);
 ************************************/
 
-/*7.sort, sort(), reverse() *******
+/*7.sort, sort().reverse() *******
 // 배열을 사전순으로 내림차순 정렬하는 메서드
 // 자바스크립트는 문자단위 정렬
 // 숫자단위는 정렬은 문제가 발생한다
