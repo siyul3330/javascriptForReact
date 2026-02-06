@@ -1,0 +1,14 @@
+#login{
+  background-color: rgb(255, 235, 205);
+  font-weight: 700;
+  color: brown;
+  border-bottom: 2px solid black;
+
+}
+
+#logout{
+  background-color: rgb(255, 235, 205);
+  font-weight: 700;
+  color: brown;
+  border-bottom: 2px solid black;
+}
