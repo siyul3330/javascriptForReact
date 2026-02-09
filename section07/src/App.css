@@ -1,0 +1,88 @@
+/* 전체 배경 */
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+}
+
+/* 계산기 카드 */
+.calculator-card {
+  background-color: #ffffff;
+  padding: 30px 40px;
+  border-radius: 20px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+  width: 350px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.calculator-card:hover {
+  transform: translateY(-5px);
+}
+
+/* 타이틀 */
+.title {
+  margin-bottom: 25px;
+  color: #333;
+  font-size: 28px;
+}
+
+/* Viewer 스타일 */
+.viewer {
+  background-color: #f7f7f7;
+  padding: 20px;
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: bold;
+  border-radius: 12px;
+  color: #333;
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* 버튼 그룹 */
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+/* 기본 버튼 스타일 */
+.btn {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.2s;
+  color: #fff;
+  font-weight: bold;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+}
+
+/* 메인 버튼 색상 */
+.main-btn {
+  background: linear-gradient(45deg, #ff416c, #ff4b2b);
+}
+
+/* 숫자 버튼 색상 */
+.number-btn {
+  background: linear-gradient(45deg, #1fa2ff, #12d8fa);
+}
+
+/* 카운터 숫자 스타일 */
+.counter {
+  margin-left: 8px;
+  font-weight: normal;
+  background-color: rgba(255,255,255,0.3);
+  padding: 2px 8px;
+  border-radius: 6px;
+}
