@@ -48,8 +48,7 @@ function App() {
 
         <Viewer2 calculate={calculate} />
         <InputController onClickCalculate={onClickCalculate} />
-
-        {count % 2 === 0 && <Even />}
+        {count % 2 === 0 ? <Even /> : null}
 
         <div className="button-group">
           <button className="btn main-btn" onClick={() => setCount(count + 1)}>

@@ -9,9 +9,7 @@ const Even = () => {
     }
   },[]);
   return <>
-  <div>
-    <h1>짝수입니다</h1>
-  </div>
+  <div><h1>짝수입니다</h1></div>
   </>
 }
-export default Even
+export default Even;
