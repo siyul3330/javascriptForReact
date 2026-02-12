@@ -1,0 +1,33 @@
+.List {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.List h3 {
+  margin-bottom: 12px;
+  color: #222;
+  font-weight: bold;
+}
+
+.List input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  margin-bottom: 16px;
+
+  background-color: #3a3a3a;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.List input::placeholder {
+  color: #bbb;
+}
+
+.List input:focus {
+  outline: none;
+  border-color: #4a90e2;
+}

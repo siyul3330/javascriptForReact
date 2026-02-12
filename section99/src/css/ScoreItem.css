@@ -1,0 +1,45 @@
+.ScoreItem {
+  display: grid;
+  grid-template-columns: 80px repeat(5, 1fr) auto auto;
+  align-items: center;
+  gap: 10px;
+
+  padding: 14px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: #f9fafb;
+}
+
+.ScoreItem b {
+  color: #222;
+  font-size: 15px;
+}
+
+.ScoreItem span {
+  color: #333;
+  font-size: 14px;
+}
+
+.ScoreItem input {
+  width: 60px;
+  padding: 6px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.ScoreItem button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 13px;
+  cursor: pointer;
+  color: white;
+}
+
+.ScoreItem button:first-of-type {
+  background-color: #ffb703;
+}
+
+.ScoreItem button:last-of-type {
+  background-color: #ef476f;
+}
